@@ -11,7 +11,7 @@
 }
 body {
   color: var(--tertiary-color);
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Georgia, Arial, Helvetica;
 }
 /* HEADER styles START */
 
@@ -196,7 +196,7 @@ float: left;
 .project-name {
   position: absolute;
   padding: 5px;
-  font-size: 12px;
+  font-size: 18px;
   background-color: var(--tertiary-color);
   color: var(--primary-color);
  }
@@ -213,10 +213,12 @@ float: left;
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
+  .Project1 {
+    width: 100%;
+  }
+  
   header {
-    padding-bottom: 0;
     justify-content: center;
-    position: relative
   }
 
   header h1 {
@@ -237,20 +239,7 @@ float: left;
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-  section {
-    padding: 30px 15px;
-  }
-
-  .step h3 {
-    flex: 1 100%;
-    text-align: center;
-  }
-
-  .step-info {
-    flex: 2 100%;
-    text-align: center;
-    justify-content: center;
-  }
+ 
 
   .step-img {
     flex: 0 32%;

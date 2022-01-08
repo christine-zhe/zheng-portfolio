@@ -1,2 +1,17 @@
 # zheng-portfolio
-My Portfolio 
+# My Portfolio 
+
+## Description
+This contains files for my portfolio. It will showcase my skills and talents. The portfolio currently has only 2 deployed web applications. The others are simply placeholders for future projects. The portfolio will be updated often.
+
+Porfolio contains:
+* About Me
+* Work
+* Contact Me
+* Resume
+
+# Screenshot
+Below are images of schreenshots of what the portfolio contains:
+<img src ="./assets/images/AboutMe.jpeg/>
+
+Other images:
