@@ -22,14 +22,11 @@ header {
     justify-content: space-between;
     /* this makes the contents wrap based on screen size */
     flex-wrap: wrap;
-     position: sticky;
-    top: 0;
+     /* position: sticky; */
     background-attachment: fixed;
     background-position: 80%;
     background-size: cover;
-    z-index: 9999;
-  
-  }
+   }
 
 
   
