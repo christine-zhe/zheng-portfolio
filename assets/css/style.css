@@ -13,9 +13,8 @@ body {
   color: var(--tertiary-color);
   font-family: Georgia, Arial, Helvetica;
 }
+
 /* HEADER styles START */
-
-
 header {
     padding: 20px 35px;
     background-color: var(--secondary-color);
@@ -52,30 +51,24 @@ header {
   header nav {
     margin: 7px 0;
   }
-  
+/*   Wraps the navigation area */
   header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
     list-style: none;
     text-decoration: underline;
-
-  }
+  } 
   
   header nav ul li a {
-    padding: 10px 15px;
-    font-weight: stronger;
+    padding: 15px 15px;
     font-size: 1.55vw;
     text-shadow: 0 0 10px white;
-  
-  }
+    }
+
   header nav ul li a:hover {
     background: var(--secondary-color);
     color: var(--primary-color);
-    border-radius: 15px;
-    text-shadow: none;
-
   }
   /* HEADER / NAVBAR STYLES END */
 
@@ -193,13 +186,17 @@ float: left;
   justify-content: space-around;
 }
 
+/* styles for each project name */
 .project-name {
   position: absolute;
   padding: 5px;
-  font-size: 18px;
+  /* Reponsive Font Size */
+  font-size: 1em;
   background-color: var(--tertiary-color);
   color: var(--primary-color);
  }
+
+ /* style for contacts*/ 
 
 .contacts {
   display:flex;
@@ -211,75 +208,52 @@ float: left;
   border-left: 3px solid rgb(0, 0, 0);
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+/* Media Query*/
 @media screen and (max-width: 980px) {
   .Project1 {
     width: 100%;
   }
   
-  header {
-    justify-content: center;
-  }
-
   header h1 {
     width: 100%;
     text-align: center;
   }
 
   header nav ul {
-    margin-top: 20px;
+    margin-top: 15px;
     width: 100%;
     justify-content: center;
   }
 
   header nav ul li a {
-    font-size: 20px;
-  } 
+    font-size: 22px;
+  }  
 }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-@media screen and (max-width: 768px) {
- 
-
-  .step-img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .step-text {
-    flex: 100%;  
-  }
-}
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  .hero-form button {
+  .Project1 {
     width: 100%;
+    justify-content: space-around;
   }
 
-  .section-title {
-    width: 95%;
+  .work img {
+    width: 218px;
   }
 
-  .intro p {
-    width: 100%;
+  .project-name {
+    font-size: 12px;
   }
 
-  .trainer {
-    flex: 0 100%;
-  }
+  .main p {
+    font-size: 18px;
+    }
+    
+    .hero-subtitle h2 {
+      padding-right: 1rem;
+    }
 
-  .contact-info {
-    text-align: center;
-  }
-
-  .contact-info > * {
-    flex: 0 100%;
-  }
-
-  .contact-form {
-    order: 3;
-  }
+    .first-project img {
+      height: 97vw;
+    }
 }
+

@@ -9,6 +9,10 @@ Porfolio contains:
 * Contact Me
 * Resume
 
+## Link
+The link to the portfolio: 
+https://christine-zhe.github.io/zheng-portfolio/
+
 # Screenshot
 Below are images of schreenshots of what the portfolio contains:
 <img src ="./assets/images/AboutMe.jpeg" alt="Home Screenshot of my portfolio"/>
