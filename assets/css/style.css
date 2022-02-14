@@ -159,7 +159,7 @@ float: left;
   margin: 0 auto;
 }
 
-.Project1 {
+/* .Project1 {
   display:flex;
   flex-wrap: wrap;
   align-items:stretch;
@@ -170,7 +170,7 @@ float: left;
   line-height: 1.6;
   width: 70%;
   justify-content: space-around;
-}
+} */
 
 .project {
   display:flex;
@@ -191,6 +191,18 @@ float: left;
   font-size: 1em;
   background-color: var(--tertiary-color);
   color: var(--primary-color);
+ }
+
+ article {
+   display: flex;
+  flex-direction: row;
+   flex-wrap: wrap;
+   border-left: 3px solid rgb(0, 0, 0);
+   font-size: 20px;
+   padding: 0 30px;
+   line-height: 1.6;
+   width: 70%;
+   justify-content: space-around;
  }
 
  /* style for contacts*/ 
